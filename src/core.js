@@ -12,7 +12,7 @@ const envs = require('./envs');
 const {createAliasUrl, createCloneUrl} = require('./helpers');
 
 // Use .env in dev
-require('dotenv').config();
+// require('dotenv').config();
 
 const {
   GITHUB_TOKEN,
