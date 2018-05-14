@@ -11,6 +11,9 @@ const log = require('./logger');
 const envs = require('./envs');
 const {createAliasUrl, createCloneUrl} = require('./helpers');
 
+// Use .env in dev
+require('dotenv').config();
+
 const {
   GITHUB_TOKEN,
   GITHUB_WEBHOOK_SECRET,
